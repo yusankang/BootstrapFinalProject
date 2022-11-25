@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服務購買</title>
+    <meta name="description" content="撿到寶, 寵物似客製顏繪, 寵物領養">
+    <meta name="keywords" content="寵物領養, 寵物繪圖, 寵物顏繪, 寵物藝術, 毛來, pet adoption, illustration">
+    <meta property="og:title" content="撿到寶毛孩似客製顏繪">
+    <meta property="og:description" content="購買寵物似顏繪，一起幫助浪浪">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="#">
+    <meta property="og:image" content="FB圖片">
+    <meta property="og:site_name" content="撿到寶">
+    <meta name="author" content="撿到寶">
+    <link rel="shortcut icon" href="./resourses/圖片資源/favicon.ico">
+    <link rel="apple-touch-icon" href="./resourses/圖片資源/apple-touch-icon.jpg">
+
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!--stylesheets-->
+    <link rel="stylesheet" href="/stylesheets/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+        body{
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+        .kalam{
+            font-family: 'Kalam', cursive;
+        }
+    </style>
+</head>
+<body>
+    <!--topbar-->
+    <nav class="navbar navbar-expand-lg bg-white">
+        <div class="container-fluid">
+            <h1>
+                <a class="navbar-brand m-3 ps-2 ps-lg-5" href="./index.html"><img src="./resourses/圖片資源/logo.png" alt="撿到寶logo"></a>
+            </h1>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5">
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="./index.html">首頁</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="./services.html">服務介紹</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="./archive.html">設計作品</a>
+                </li>
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="./adoption.html">領養專區</a>
+                </li>
+                <a href="./order-form.html" type="button" class="btn btn-warning rounded-pill nav-item mx-1 mx-lg-3 p-2 px-lg-5 navbar-btn-mobile text-dark text-decoration-none btn-custom-shadow" aria-current="page" >毛孩似顏繪</a>
+                </ul>          
+            </div>
+        </div>
+    </nav>
+        
+    <div class="py-4" style="background-image: url(./resourses/圖片資源/lightpaperfibers.png)">
+        <!--banner-->
+        <header class="banner-img"></header>
+
+        <!--order-form-->
+        <div class="container d-flex justify-content-center">
+            <div class="bg-white p-3 p-lg-5 border-top border-4 rounded-4 border-warning mb-4 shadow text-dark form-background">
+                <h4 class="text-center fs-4 fw-bold text-dark mb-5">
+                    填寫訂購資料
+                </h4>
+                <form action="#" class="row pt-5 needs-validation" novalidate>
+                    <div class="col-12 col-lg-6 mb-3">
+                        <label for="validation-first-name" class="form-label">名字</label>
+                        <input id="validation-first-name" type="text" class="form-control" aria-label="First name" required>
+                        <div class="valid-feedback">
+                            Ok!
+                        </div>
+                        <div class="invalid-feedback">
+                            請填寫名字
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-3">
+                        <label for="validatoin-last-name" class="form-label">姓氏</label>
+                        <input id="validation-last-name" type="text" class="form-control" aria-label="Last name" required>
+                        <div class="valid-feedback">
+                            Ok!
+                        </div>
+                        <div class="invalid-feedback">
+                            請填寫姓氏
+                        </div>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="validation-phone" class="form-label">手機號碼</label>
+                        <input type="tel" class="form-control" id="validation-phone" required>
+                        <div class="valid-feedback">
+                            Ok!
+                        </div>
+                        <div class="invalid-feedback">
+                            請填寫手機號碼
+                        </div>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="validation-email" class="form-label">電子郵件</label>
+                        <input type="validation-email" class="form-control" id="email" required>
+                        <div class="valid-feedback">
+                            Ok!
+                        </div>
+                        <div class="invalid-feedback">
+                            請填寫電子郵件
+                        </div>
+                    </div>
+                    <label for="validation-address" class="form-label">收件地址</label>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <select id="validation-address" class="form-select" required>
+                            <option value="" disabled selected>請選擇城市</option>
+                            <option value="1">台北市</option>
+                            <option value="2">新北市</option>
+                            <option value="3">台中市</option>
+                        </select>
+                        <div class="invalid-feedback">請選擇城市</div>
+                    </div>
+                    <div class="col-12 col-lg-6 mb-2">
+                        <select id="validation-address" class="form-select" required>
+                            <option value="" disabled selected>請選擇區域</option>
+                            <option value="1">中正區</option>
+                            <option value="2">大同區</option>
+                            <option value="3">松山區</option>
+                        </select>
+                        <div class="invalid-feedback">請選擇區域</div>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <input type="text" class="form-control" id="inputAddress" placeholder="請輸入詳細地址" required>
+                        <div class="invalid-feedback">請填寫收件地址</div>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="designer" class="form-label">選擇設計師風格</label>
+                        <select id="designer" class="form-select" required>
+                            <option value="1">Meili</option>
+                            <option value="2">Zoe</option>
+                            <option value="3">Michael</option>
+                            <option value="4">Birdy</option>
+                        </select>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <label for="payment" class="form-label">付款方式</label>
+                        <select id="payment" class="form-select" required>
+                            <option value="1">貨到付款</option>
+                            <option value="2">信用卡付款</option>
+                            <option value="3">ATM轉帳</option>
+                            </select>
+                    </div>
+                    <fieldset class="row mb-3">
+                        <div class="col-12">
+                            <legend class="form-label fs-6">加購服務</legend>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
+                                <label class="form-check-label" for="inlineCheckbox1">送禮用包裝+100</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
+                                <label class="form-check-label" for="inlineCheckbox2">無畫框+250</label>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="mb-5">
+                        <label for="comments" class="mb-2">備註說明</label>
+                        <textarea class="form-control" id="comments" rows="4"></textarea>
+                    </div>
+                    <h4 class="fs-4 fw-bold text-center mb-5">總金額 NT$ 300</h4>
+                    <div class="col-12 d-flex justify-content-center">
+                        <button type="submit" class="btn btn-warning mb-2 fs-4 rounded-pill px-5">送出訂購資訊</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="border-top border-warning border-3">
+        <div class="container pt-5">
+        <div class="row row-cols-1 row-cols-lg-2 gy-3">
+            <div class="col d-flex flex-column flex-lg-row mb-5 align-items-center justify-content-lg-end">
+            <img src="./resourses/圖片資源/link01.png" class="image-fluid mb-5 mb-lg-0" style="width:35%;" alt="join our team icon">
+            <div class="ms-4 text-center text-lg-start">
+                <h4>加入奴才團隊</h4>
+                <p>我也會畫畫，希望能盡一份心力！</p>
+                <a href="#offcanvas-contact-details" class="btn btn-custom rounded-pill text-dark px-5 fs-5" data-bs-toggle="offcanvas" role="button" aria-controls="offcanvas-contact-details">聯絡我們</a>
+            </div>
+            </div>
+
+            <!--offcanvas-contact-details-->
+            <div class="offcanvas offcanvas-start mt-0 px-0" data-bs-backdrop="false" data-bs-scroll="true" tabindex="-1" id="offcanvas-contact-details" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header bg-warning m-0">
+                <h5 class="offcanvas-title ps-3" id="offcanvas-contact-details">聯絡我們</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body mt-2 mt-lg-5 ms-3">
+                <ul class="list-unstyled">
+                    <li class="mb-3">
+                    <i class="bi bi-telephone me-2"></i>電話
+                    <a href="#" class="text-dark ms-2">02 123 4567</a>
+                    </li>
+                    <li class="mb-3">
+                    <i class="bi bi-geo-alt me-2"></i>地址
+                    <a href="#" class="text-dark ms-2">台北市ＯＯ區ＯＯＯ路123號</a>
+                    </li>
+                    <li class="mb-3">
+                    <i class="bi bi-envelope me-2"></i>Email
+                    <a href="#" class="text-dark ms-2">pets@fulloffur.com.tw</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+
+            <div class="col d-flex flex-column flex-lg-row mb-5 align-items-center justify-content-lg-start">
+            <img src="./resourses/圖片資源/link02.png" class="image-fluid mb-5 mb-lg-0" style="width:35%;" alt="join our team image">
+            <div class="ms-4 text-center text-lg-start">
+                <h4>加入奴才團隊</h4>
+                <p>我也會畫畫，希望能盡一份心力！</p>
+                <a href="./adoption.html" class="btn btn-custom rounded-pill text-dark px-5 fs-5">領養專區</a>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="bg-dark">
+        <p class="mb-0 text-center text-white py-4">Copyright © 2021 撿到寶. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function () {
+    'use strict'
+
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.querySelectorAll('.needs-validation')
+
+    //Loop over them and prevent submission
+    Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+        form.classList.add('was-validated')
+      }, false)
+    })
+    })()
+    </script>
+</body>
+</html>

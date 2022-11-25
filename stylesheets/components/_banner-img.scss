@@ -1,0 +1,27 @@
+.banner-img{
+    height: 288px;
+    background-image: url("../../resourses/圖片資源/banner.png");
+    background-image: cover;
+    background-position:bottom center;
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .banner-img{
+        width: auto;
+        background-image: url("../../resourses/圖片資源/banner_service-sm@2x.png");
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 20px;
+    }
+  }
+
+.service-img {
+    width: auto;
+}
+
+@media screen and (max-width: 992px) {
+    .service-img{
+        width: 28%;
+    }
+}

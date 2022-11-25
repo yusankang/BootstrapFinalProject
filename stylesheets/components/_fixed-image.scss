@@ -1,0 +1,30 @@
+.btn-speech-bubble:hover {
+    color: #3A3A3A;
+}
+
+.fixed-img{
+    position:relative;
+}
+
+.fixed-img-hover{
+    position: absolute;
+    left:0;
+    opacity: 0;
+    transition: opacity .2s;
+}
+
+.fixed-img:hover .fixed-img-hover {
+    opacity: 1 !important;
+}
+
+.speech-bubble-point {
+    transform: rotate(45deg);
+    background: #FFFFFF;
+    border-right: 2px solid #3A3A3A;
+    border-bottom: 2px solid #3A3A3A;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 32px;
+    left: 75px;
+}
