@@ -1,6 +1,6 @@
 .banner-img{
     height: 288px;
-    background-image: url("../../images/banner.png");
+    background-image: url("../images/banner.png");
     background-image: cover;
     background-position:bottom center;
     margin-bottom: 100px;
@@ -9,7 +9,7 @@
 @media screen and (max-width: 992px) {
     .banner-img{
         width: auto;
-        background-image: url("../../images/banner_service-sm@2x.png");
+        background-image: url("../images/banner_service-sm@2x.png");
         background-size: contain;
         background-repeat: no-repeat;
         margin-bottom: 20px;
