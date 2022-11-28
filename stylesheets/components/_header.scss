@@ -1,6 +1,6 @@
 .header-img{
     height: 810px;
-    background-image: url("../images/home.png");
+    background-image: url("../../images/home.png");
     background-image: cover;
     background-position:bottom center;
 }
@@ -17,7 +17,7 @@
 @media screen and (max-width: 576px) {
     .header-img{
         height: 920px;
-        background-image: url("../images/home_mobile.png");
+        background-image: url("../../images/home_mobile.png");
         background-size: cover;
         background-position: top, center;
     }
